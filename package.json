@@ -6,6 +6,10 @@
   "repository": "https://github.com/moeabdol/whats-my-user-agent",
   "author": "moeabdol <mohd.a.saed@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node app",
+    "test": "mocha --watch"
+  },
   "dependencies": {
     "express": "^4.15.4",
     "express-handlebars": "^3.0.0"
