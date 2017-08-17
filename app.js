@@ -5,6 +5,7 @@ const app = express();
 app.set("port", process.env.PORT || 3000);
 
 app.get("/", (req, res) => {
+  res.type("text");
   res.send(req.headers["user-agent"]);
 });
 
