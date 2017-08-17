@@ -1,0 +1,19 @@
+{
+  "name": "whats-my-user-agent",
+  "version": "1.0.0",
+  "description": "What's My User Agent example from the book \"Express in Action\" by Evan M. Hahn.",
+  "main": "app.js",
+  "repository": "https://github.com/moeabdol/whats-my-user-agent",
+  "author": "moeabdol <mohd.a.saed@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "eslint": "^4.4.1",
+    "mocha": "^3.5.0",
+    "supertest": "^3.0.0"
+  }
+}
